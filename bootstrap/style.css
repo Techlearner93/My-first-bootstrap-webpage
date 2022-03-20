@@ -1,0 +1,95 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+/* Carousel */
+.carousel-item {
+  height: 400px;
+}
+.carousel-item-content {
+  padding-left: 100px;
+  padding-top: 50px;
+  color: white;
+}
+.carousel-item .carousel-images {
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+}
+/* End of Carousel */
+
+/* Main content */
+.main-content {
+  display: block;
+  text-align: center;
+}
+/* End of main content */
+
+/* Sub content */
+.sub-content {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  height: 400px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.card h2 {
+  padding-left: 5px;
+}
+.card p {
+  padding-left: 5px;
+  overflow: hidden;
+}
+.card-image {
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: inline-block;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.card-1 {
+  background-image: url("./images/card1.jpg");
+}
+.card-2 {
+  background-image: url("./images/card2.jpg");
+}
+.card-3 {
+  background-image: url("./images/card3.jpg");
+}
+/* contact page */
+.contact-form {
+  padding-top: 50px;
+}
+.contact-form-content {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.form-control {
+  display: flex;
+}
+
+/* Register */
+
+/* End of Register */
